@@ -11,6 +11,7 @@ import MemoEx from "./components/Hooks/MemoEx";
 import "./App.css";
 import MemoEx2 from "./components/Hooks/MemoEx2";
 import UseMemoEx from "./components/Hooks/UseMemoEx";
+import UseCallBackEx from "./components/Hooks/useCallBack/UseCallBackEx";
 
 function App() {
   const [num, setNumber] = useState<string>("");
@@ -45,7 +46,8 @@ function App() {
       {false && <StateEx />}
       {false && <MemoEx />}
       {false && <MemoEx2 />}
-      <UseMemoEx />
+      {false && <UseMemoEx />}
+      <UseCallBackEx />
     </div>
   );
 }
